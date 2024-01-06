@@ -1,42 +1,49 @@
 /* font styler */
-body{
+body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
-   
 }
+
 /* nav related style */
-nav{
-    display:flex;
+nav {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 180px;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
     color: #474747;
 }
-nav a{
+
+nav a {
     text-decoration: none;
 }
-.clik-btn{
+
+.clik-btn {
     color: white;
 }
-.span-color{
+
+.span-color {
     color: #FD6E0A;
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-size: 45px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #FD6E0A;
     font-size: 20px;
     font-weight: 700;
@@ -45,16 +52,73 @@ nav a{
     padding: 12px 25px;
     color: white;
 }
+
 /* heading related style */
-.head{
- background-color: antiquewhite;
+.head {
+    background-color: antiquewhite;
+    justify-content: space-between;
 }
-.banner{
-    margin: 0 180px;
+
+.banner {
+    /* margin: 0 180px; */
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profile{
-    height: 676px;
-    width: 584px;
+
+.banne .profile {
+    width: 500px;
+}
+
+.bnr-contnt {
+    max-width: 500px;
+}
+
+.bnr-wlc {
+    color: var(--Dark-02, #474747);
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 2px;
+    font-style: normal;
+}
+
+.name {
+    color: var(--Dark-01, #181818);
+    font-size: 75px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: normal;
+}
+
+.bnr-pgr {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+/* End Header Part Style */
+
+/* Start Main part style */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+.section-tittle {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
