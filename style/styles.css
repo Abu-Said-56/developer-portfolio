@@ -9,6 +9,7 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 180px;
 }
 nav > ul{
     display: flex;
@@ -22,7 +23,9 @@ nav li{
 nav a{
     text-decoration: none;
 }
-
+.clik-btn{
+    color: white;
+}
 .span-color{
     color: #FD6E0A;
 }
@@ -41,4 +44,17 @@ nav a{
     border: 0;
     padding: 12px 25px;
     color: white;
+}
+/* heading related style */
+.head{
+ background-color: antiquewhite;
+}
+.banner{
+    margin: 0 180px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile{
+    height: 676px;
+    width: 584px;
 }
