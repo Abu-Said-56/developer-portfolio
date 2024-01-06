@@ -29,6 +29,7 @@ nav a {
 
 .clik-btn {
     color: white;
+   text-decoration: none;
 }
 
 .span-color {
@@ -105,10 +106,6 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-
-/* main section{
-    margin-top: 130px;
-} */
 .about {
     padding: 130px;
     border-radius: 10px;
@@ -170,33 +167,79 @@ main {
     height: 196px;
     width: 201px;
 }
+
 /* Resume part styles */
 .section-title {
     margin-top: 100px;
     text-align: center;
 }
-.resume-container{
+
+.resume-container {
     display: flex;
     gap: 60px;
 }
 
-.resume-coloum-title{
+.resume-coloum-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
 }
-.resume-institute, .resume-company{
+
+.resume-institute,
+.resume-company {
     color: #757575;
     margin-bottom: 5px;
 }
-.resume-description{
-    color: #757575;
+
+.resume-description {
+    color: #ada9a9;
     margin-bottom: 15px;
 }
-.resume-item-title{
+
+.resume-item-title {
     margin-bottom: 10px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+/* footr style */
+footer{
+    height: 700px;
+    display: flex;
+    gap: 75px;
+    padding-left: 130px 386px 130px 230px;
+    margin: 130px 10px 10px 10px;
+    background-color: rgb(239, 236, 232);
+}
+.footer-coloum{
+    width: 50%;
+}
+.section-descriptions{
+    height: 56px;
+    width: 562px;
+}
+.img-formate{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nam, .mail{
+    height: 40px;
+    width: 500px;
+    background-color: #FFF;
+}
+
+.msg{
+    height: 150px;
+    width:300px;
+}
+.contract input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    background-color: #FFF;
+    border: 0;
 }
