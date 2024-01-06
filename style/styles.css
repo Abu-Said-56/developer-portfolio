@@ -101,6 +101,11 @@ nav a {
 /* End Header Part Style */
 
 /* Start Main part style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .about {
     padding: 130px;
     border-radius: 10px;
@@ -116,9 +121,46 @@ nav a {
 }
 
 .section-description {
-    color:#757575;
+    color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+#pra {
+    padding: 30px 150px;
+    padding-top: 0;
+}
+.section-tittle{
+    padding-bottom: 5px;
+    padding: 0;
+}
+.skils-container {
+    display: flex;
+}
+
+.skils {
+   max-height: 325px;
+    max-width:267px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    /* color: #FFFFFF; */
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-right: 25px;
+}
+.skills-description{
+    padding: 30px 33px;
+    height: 196px;
+    width: 201px;
 }
